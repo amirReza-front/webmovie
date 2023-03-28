@@ -1,0 +1,6 @@
+let list = {
+    SUCCEEDED : "LIST_FETCH_SUCCEEDED",
+    FAILED : "LIST_FETCH_FAILED",
+    REQUESTED : "LIST_FETCH_REQUESTED",
+}
+export default list;

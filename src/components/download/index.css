@@ -1,0 +1,48 @@
+.download_container{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+.download_list{
+    margin-bottom: 10px;
+    border: 1px solid #1b171a8f;
+    border-radius: 10px;
+    background: #120e0ba6;
+    position: relative;
+    padding: 0 11px;
+    padding-top: 11px;
+}
+.web_title{
+    font-size: 19pt;
+    color: #eb8307;
+    text-align: initial;
+    display: -webkit-box;
+    max-width: 70%;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 40px;
+}
+.web_dl_btn{
+    background: #25292c;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 3px;
+    color: white;
+   
+}
+.web_date{
+    padding: 0;
+    display: block;
+    color: #b3b3b3;
+    font-size: 9pt;
+    margin: -10px 0 0 0;
+    text-align: right;
+}
+.dl_links_title{
+    font-size: 17pt;
+    margin-bottom: 20px;
+}
+.fixed{
+    position: fixed;
+}

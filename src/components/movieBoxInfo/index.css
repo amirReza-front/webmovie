@@ -1,0 +1,107 @@
+.movie_Introduction {
+    width: 50%;
+    margin-top: 7%;
+    color: var(--white);
+    margin-bottom: 7%;
+    min-height: 30vh;
+    padding-left: 5%;
+}
+.movie_Introduction_single{
+    width: 50%;
+    color: var(--white);
+    min-height: 50vh;
+    padding-left: 5%;
+}
+.introduc_name {
+    font-size: 30pt;
+    /* text-shadow: -3px -1px 4px #000; */
+    line-height: 1;
+    /* text-align: left; */
+}
+.introduce_rates {
+    width: 60%;
+}
+.introduce_rates div:last-child {
+    border-left: 1px solid transparent;
+}
+.introduce_rates div {
+    font-size: 11pt;
+    margin-left: 20px;
+    display: inline-block;
+    border-left: 1px solid #8b8b8b;
+    padding-left: 20px;
+}
+.movie_badget {
+    background: #ff879c;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.introduce_description {
+    font-size: 11pt;
+    line-height: 32px;
+    text-align: justify;
+}
+.introduc_name_persian {
+    font-size: 15pt;
+    color: yellow;
+    margin: 0px 0 20px 25px;
+}
+.movie_imdb_svg {
+    background: yellow;
+    color: black;
+    border-radius: 3px;
+    padding: 3px;
+    font-size: 9px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.gerne {
+    padding: 0px 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.gerne_con {
+    margin-bottom: 40px;
+}
+.movie_Introduction_type3 {
+    font-size: 11pt;
+    background: #ea3a80;
+    margin-left: 20px;
+    padding: 5px;
+}
+.movie_Introduction_type1 {
+    margin-left: 20px;
+    font-size: 11pt;
+    background: #3a80ea;
+    padding: 10px;
+}
+.movie_Introduction_type2 {
+    background: #5f5f5f66;
+    color: #dedede;
+    padding: 10px;
+}
+.movie_Introduction_type4{
+    background: #17a2b8;
+    color: #dedede;
+    padding: 6px 0 !important;
+    margin-left: 20px;
+}
+.movie_Introduction_btn {
+    width: 150px;
+    padding: 5px 0;
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
+    cursor: pointer;
+}

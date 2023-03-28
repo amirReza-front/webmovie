@@ -1,0 +1,27 @@
+siper-con-custom{
+    background-color: transparent;
+}
+.swiper_title {
+    color: var(--white);
+    font-size: 13pt;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 0 25px;
+}
+.swiper_title:before {
+    content: ' » ';
+    font-size: 20pt;
+}
+.swiper_img{
+    width: 100%;
+    border-radius: 15px;
+}
+.swiper_grid_loading{
+    width: 10%;
+    margin-left: 20px;
+}
+.actor_titles{
+    color: white;
+    text-align: center;
+    display: block;
+}

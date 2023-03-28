@@ -1,0 +1,57 @@
+.grid_body_item2 {
+    width: 9%;
+    border-radius: 15px;
+     overflow: hidden; 
+    position: relative;
+    cursor: pointer;
+    margin: 0 0 1.111% 1.111%;
+    background: #35445a;
+    color: white;
+}
+.grid_body_item2_title{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    background: #0000003b;
+    padding-bottom: 10px;
+}
+.grid_body2 .grid_body_item2:nth-child(10n) {
+    margin: 0 0 1.111% 0%;
+}
+.SerialGridCards_Thumbnail{
+ 
+    width: 100%;
+}
+.grid_body_item2_cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0000009c;
+}
+span.grid_body_item2_episode {
+    position: absolute;
+    font-size: 40pt;
+    /* background: red; */
+}
+.grid_body_item2_duble{
+    position: absolute;
+    left: -23px;
+    bottom: 10px;
+    transform: rotate(48deg);
+    background-color: #bf4221;
+    color: white;
+    width: 81px;
+    text-align: center;
+}
+.grid_body_item2_en{
+    position: absolute;
+    left: -54px;
+    bottom: 13px;
+    transform: rotate(48deg);
+    background-color: #005a8b;
+    color: white;
+    width: 154px;
+    text-align: center;
+}

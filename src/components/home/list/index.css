@@ -1,0 +1,24 @@
+
+.grid_body .grid_body_item:nth-child(10n){
+    margin: 0 0 1.111% 0%;
+}
+.showMore{
+    padding: 7px 15px;
+    background: #cd5050;
+    border-radius: 5px;
+    border: 1px solid #cd5050;
+    color: white;
+}
+.not_found{
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+}
+.not_found img{
+    width: 250px;
+}
+.not_found_text{
+    color: #eb8307;
+    font-size: 20pt;
+}
+

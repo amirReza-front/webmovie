@@ -1,0 +1,55 @@
+
+.cycle_main_parent {
+    white-space: nowrap;
+    overflow: auto;
+}
+.cycle_main_parent::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  /* Track */
+  .cycle_main_parent::-webkit-scrollbar-track {
+    background:transparent; 
+  }
+   
+  /* Handle */
+  .cycle_main_parent::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  .cycle_main_parent::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.cycle_container {
+    width: 100px;
+    display: inline-block;
+}
+.img_cycles {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+}
+.img_cycles_titles {
+    text-align: center;
+    font-size: 7pt;
+    color: white;
+    white-space: pre-wrap;
+}
+.cycle_more {
+    height: 50px;
+    width: 50px;
+    background: #5f5f5fa6;
+    vertical-align: top;
+    position: relative;
+    border-radius: 50%;
+    white-space: initial;
+    text-align: center;
+    font-size: 8pt;
+    padding-top: 7px;
+    color: white;
+}

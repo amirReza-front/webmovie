@@ -1,0 +1,6 @@
+let Geners = {
+    SUCCEEDED : "GENRS_FETCH_SUCCEEDED",
+    FAILED : "GENRS_FETCH_FAILED",
+    REQUESTED : "GENRS_FETCH_REQUESTED",
+}
+export default Geners;

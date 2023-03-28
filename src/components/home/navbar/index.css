@@ -1,0 +1,15 @@
+.home_nav {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.nav_items {
+    font-size: 11pt;
+}
+.nav_activ svg, .nav_activ span {
+    color: yellow;
+}
+.nav_items_txt {
+    line-height: 2;
+    color: var(--white);
+}

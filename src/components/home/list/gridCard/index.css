@@ -1,0 +1,106 @@
+.grid_body_item {
+    width: 9%;
+    border-radius: 15px;
+    /* overflow: hidden; */
+    position: relative;
+    cursor: pointer;
+    margin: 0 0 1.111% 1.111%;
+    position: relative;
+}
+.grid_body_item img{
+    width: 100%;
+}
+.card_main_title{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: -o-linear-gradient(bottom, #000000, transparent);
+    background: -webkit-gradient(linear, left bottom, left top, from(#000000), to(transparent));
+    margin-bottom: 0;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.3s;
+    color: white;
+    font-size: 13px;
+    border-radius: 15px;
+}
+.card_overly{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(310deg, #141727, rgba(40, 46, 81, 0.91));
+    opacity: 0;
+    transition: all 500ms;
+    padding: 15px;
+    font-size: 13px;
+    line-height: 1.75;
+    text-align: justify;
+    color: #eaeaea !important;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card_description {
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.card_rating {
+    position: absolute;
+    left: 9px;
+    bottom: 8px;
+    text-align: left;
+    padding: 0 4px;
+    margin-top: 30px;
+    color: #ffc107;
+    border: 1px solid #ffc107;
+    border-radius: 5px;
+    height: 26px;
+    line-height: 26px;
+}
+.card_imdb {
+    font-size: 14px;
+    margin-right: 7px;
+}
+.grid_body_item:hover .card_overly {
+    opacity: 1;
+}
+.grid_body_item:hover .back_card{
+    top: 0px;
+    right: 0px;
+}
+
+.back_card{
+    position: absolute;
+    transition: .3s;
+}
+.main_cover{
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.back_card.back_card1 {
+    top: -10px;
+    right: -10px;
+}
+.back_card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.back_card.back_card2 {
+    top: -5px;
+    right: -5px;
+}
+.hiddeen_overflow{
+    overflow: hidden;
+}

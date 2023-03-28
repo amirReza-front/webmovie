@@ -1,0 +1,12 @@
+.container {
+    position: relative;
+    height: 100vh;
+}
+.single_page_bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    padding: 0 50px 3%;
+    display: flex;
+}

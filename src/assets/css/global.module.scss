@@ -1,0 +1,117 @@
+* {
+    font-family: IRANSans;
+    margin: 0;
+    direction: rtl;
+    font-size: 10pt;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  
+  .normal {
+    font-size: 10pt;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  .bold {
+    font-weight: 600;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  button,
+  input,
+  select,
+  textarea {
+    outline: none;
+  }
+  .tcenter {
+    text-align: center;
+  }
+  .pointer {
+    cursor: pointer;
+  }
+  .flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .alignCenter {
+    display: flex;
+    align-items: center;
+  }
+  .JustifyCenter {
+    display: flex;
+    justify-content: center;
+  }
+  .V-flexCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .flexStart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .flexSpace {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .fullHeight {
+    height: 100%;
+  }
+  .fullWidth {
+    width: 100%;
+  }
+  .halfwidth {
+    width: 50%;
+  }
+  .mr10 {
+    margin-right: 10px;
+  }
+  .ml10 {
+    margin-left: 10px;
+  }
+  .mr5 {
+    margin-right: 5px;
+  }
+  .ml5 {
+    margin-left: 5px;
+  }
+  .relative {
+    position: relative;
+  }
+  .Tcenter {
+    text-align: center;
+  }
+  .Tright {
+    text-align: right;
+  }
+  .Tleft {
+    text-align: left;
+  }
+  .mb10 {
+    margin-bottom: 10px;
+  }
+  .home_nav{
+    background-color: red;
+  }
+  // @mixin use_flex($property, $ltr-value, $rtl-value) {
+  //   #{$property}: $ltr-value;
+  
+  //   [dir=rtl] & {
+  //     #{$property}: $rtl-value;
+  //   }
+  // }
+  
+  // .sidebar {
+  //   @include use_flex(float, left, right);
+  // }

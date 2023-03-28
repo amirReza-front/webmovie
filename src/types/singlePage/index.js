@@ -1,0 +1,6 @@
+let singlePage = {
+    SUCCEEDED : "SINGLEPAGE_FETCH_SUCCEEDED",
+    FAILED : "SINGLEPAGE_FETCH_FAILED",
+    REQUESTED : "SINGLEPAGE_FETCH_REQUESTED",
+}
+export default singlePage;

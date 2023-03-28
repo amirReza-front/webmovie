@@ -1,0 +1,22 @@
+.btn_back{
+    position: absolute;
+    top: -240px;
+    left: 51px;
+    background: #3c4e686b;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: white;
+    border: 3px solid #d7d7d730;
+    text-align: center;
+    line-height: 7;
+
+}
+.season_title{
+    
+    padding-right: 25px;
+    margin: 15px 0px;
+    font-size: 20pt;
+    color: yellow;
+
+}
